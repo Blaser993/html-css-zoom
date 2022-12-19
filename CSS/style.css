@@ -38,6 +38,11 @@ ul li{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 /* ---------- LAYOUT RULES --------------------------------------------------------------------- */
 
 .container{
@@ -50,6 +55,7 @@ ul li{
     display: flex;
     flex-direction: row;
     min-width: 100%;
+    justify-content: space-between;
 }
 
 .col-2{
