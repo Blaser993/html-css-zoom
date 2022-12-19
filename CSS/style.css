@@ -28,6 +28,11 @@ img{
     display: block;
 }
 
+ul,
+li{
+    display: inline-block
+}
+
 /* ---------- LAYOUT RULES --------------------------------------------------------------------- */
 
 .container{
@@ -38,6 +43,7 @@ img{
 
 .row{
     display: flex;
+    flex-direction: row;
 }
 
 
