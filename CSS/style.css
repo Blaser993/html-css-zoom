@@ -1,0 +1,57 @@
+/* INDICE
+
+- RESET RULES
+
+- LAYOUT RULES
+
+- MAIN RULES
+
+- DEBUG RULES */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ---------- LAYOUT RULES --------------------------------------------------------------------- */
+
+
+
+/* ---------- MAIN RULES --------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* ---------- DEBUG RULES --------------------------------------------------------------------- */
+/* elimina class="debug" dal body per disattivare */
+
+
+.debug .debug{
+    border: 2px dashed salmon;
+}
+
+.debug .header-debug{
+    padding: 12px;
+    background-color:rosybrown;
+}
+
+.debug .main-debug{
+    padding: 12px;
+    background-color: yellowgreen;
+}
+
+
+.debug .footer-debug{
+    padding: 12px;
+    background-color: aquamarine;
+}
