@@ -74,9 +74,14 @@ main{
     justify-content: space-around;
     position: absolute;
     bottom: 0px;
-    background-color: #222;
-    opacity: 50%;
+    background-color: rgba(74, 74, 74, 0.5);
+    /* opacity: 50%; */
     padding: 4px;
+}
+
+ul li{
+    opacity: 100%;
+    color: white;
 }
 
 
