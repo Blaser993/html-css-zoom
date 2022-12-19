@@ -83,6 +83,7 @@ header{
     position: fixed;
     top: 0px;
     right: 0px;
+    padding-top: 4px;
 }
 
 .col{
