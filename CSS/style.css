@@ -79,6 +79,11 @@ main{
     color: white;
 }
 
+.screen{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .camera{
     position: relative;
 }
