@@ -28,6 +28,12 @@ img{
     display: block;
 }
 
+body{
+    position: relative;
+    height: 100vh;
+}
+
+
 ul,
 li{
     display: inline-block
@@ -45,10 +51,16 @@ a{
 
 /* ---------- LAYOUT RULES --------------------------------------------------------------------- */
 
-.container{
-    width: 80vw;
+main{
+    width: 100vw;
     height: 70vh;
-    margin: 64px auto;
+    padding: 64px;
+}
+
+.container{
+    width: 90%;
+    height: 70vh;
+    margin: 0px auto;
 }
 
 .row{
@@ -72,6 +84,31 @@ header{
     top: 0px;
     right: 0px;
 }
+
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+header p{
+    display: inline-block;
+}
+
+header a{
+    height: 24px;
+    border-radius: 4px;
+    background-color:rgba(74, 74, 74);
+    padding: 4px 8px;
+    text-align: center;
+    margin-right: 8px;
+
+}
+
+
+
 
 /* ---------- MAIN RULES --------------------------------------------------------------------- */
 
