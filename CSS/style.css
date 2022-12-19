@@ -24,6 +24,10 @@ img{
     max-width: 100%;
 }
 
+.immagini{
+    display: block;
+}
+
 /* ---------- LAYOUT RULES --------------------------------------------------------------------- */
 
 .container{
@@ -55,8 +59,18 @@ main{
     color: azure;
 }
 
-.cam-utente{
+.camera{
+    position: relative;
+}
+
+.cam-info{
     display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
+    background-color: #222;
+    opacity: 50%;
+    padding: 4px;
 }
 
 
